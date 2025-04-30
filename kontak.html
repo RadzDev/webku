@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .wa-button, .home-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .home-button {
+      background-color: #007BFF;
+      margin-left: 10px;
+    }
+
+    .wa-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    .home-button:hover {
+      background-color: #0069d9;
+    }
+
+    .floating-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Hubungi Saya</h2>
+    <p>Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi Saya melalui WhatsApp:</p>
+    
+    <!-- Tombol Chat WhatsApp -->
+    <a class="wa-button"    href="https://wa.me/6285771136311?text=Halo,%20saya%20butuh%20bantuan" target="_blank">Chat via WhatsApp</a>
+
+    <!-- Tombol Kembali ke Beranda -->
+    <a class="home-button" href="index.html">Kembali ke Beranda</a>
+  </div>
+
+  <!-- Tombol Chat WhatsApp Mengambang -->
+  <a class="floating-wa" href="https://wa.me/6285771136311?text=Halo,%20saya%20butuh%20bantuan" target="_blank">💬</a>
+
+</body>
+</html>
